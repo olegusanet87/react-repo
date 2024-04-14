@@ -3,6 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+export default function App() {
+
+  const title = "My react app";
+  const imageURL = "https://img.freepik.com/free-photo/close-up-on-adorable-kitten-indoors_23-2150782423.jpg";
+  return <div><h1>{title}</h1>
+    <p> Lorem djgfdgldsgls  n gjn gfsjg fh kfgkfjg lkf gf
+    </p>
+    <img src={imageURL} alt="" width="480" />
+
+  </div>;
+}
+
+
+
+/*
 function App() {
   const [count, setCount] = useState(0)
 
@@ -33,3 +48,4 @@ function App() {
 }
 
 export default App
+*/
